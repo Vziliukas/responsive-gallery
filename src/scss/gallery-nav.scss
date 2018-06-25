@@ -1,0 +1,43 @@
+$grey: rgba(168, 166, 166, 0.548);
+$blue: rgb(19, 181, 250);
+$white: #fff;
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  width: 50%;
+
+  .bubble {
+    margin: 0.8em;
+    width: 30px;
+    height: 30px;
+    border: 1px solid $grey;
+    color: $grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bubble-active {
+    background-color: $blue;
+    color: $white;
+  }
+
+  .triangle {
+    align-self: center;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+
+  .triangle-left {
+    border-right: 20px solid $blue;
+  }
+
+  .triangle-right {
+    border-left: 20px solid $blue;
+  }
+}

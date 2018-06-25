@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <header class="header">
+                <h1>H1 - TEST</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque tempora porro quam, dolores unde voluptatibus
+                    mollitia officiis, obcaecati nesciunt fugiat natus quos facilis ducimus molestias animi facere reiciendis
+                    nisi adipisci cupiditate. Nobis, laudantium eligendi deleniti aspernatur optio, rem ea tenetur voluptate
+                    deserunt animi itaque facilis obcaecati porro quidem voluptates magnam natus doloremque mollitia doloribus?
+                    Perferendis dolor eaque suscipit quae saepe.</p>
+            </header>
+        </section>
+
+        <section class="container">
+            <div class="slider-container">
+                <figure>
+                    <img id="photo" src="images/img1.jpg" alt="">
+                </figure>
+                <div class="btn-slider prev">
+                    <div class="triangle-left triangle-black"></div>
+                </div>
+                <div class="btn-slider next">
+                    <div class="triangle-right triangle-black"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div id="comments"class="comment-container botom-border">
+                <h1>Comments:</h1>
+                <!-- <div class="comment-item">
+                    <figure class="avatar">
+                        <img src="images/avatar.png" alt="">
+                    </figure>
+                    <div class="comment-text">
+                        <h2>Guest</h2>
+                        <p>Nice photo!</p>
+                    </div>
+                </div>
+                <div class="comment-item">
+                    <figure class="avatar">
+                        <img src="images/avatar.png" alt="">
+                    </figure>
+                    <div class="comment-text">
+                        <h2>Guest</h2>
+                        <p>Nice photo!</p>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <section class="container">
+            <form id ="comment-form" action="" class="form">
+                <div class="form-item-group">
+                    <div class="form-item">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Alex" required>
+                    </div>
+                    <div class="form-item">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>
+                <div class="form-item">
+                    <label for="comment">Describtion:</label>
+                    <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Alex" required></textarea>
+                </div>
+                <button type="submit" class="btn">send</button>
+            </form>
+        </section>
+    </main>
+    <script src="bundle.js"></script>
+</body>
+
+</html>

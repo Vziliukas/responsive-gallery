@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+
+    h1 {
+      align-self: center;
+      padding: 2em;
+    }
+    p {
+      padding-bottom: 3em;
+      text-align: center;
+    }
+  }
