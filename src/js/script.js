@@ -77,6 +77,11 @@
 
   function updateImg(updateImg, newImg) {
     updateImg.src = newImg;
+    updateImg.classList.add('fade-in');
+
+    setTimeout(function(){
+        updateImg.classList.remove('fade-in')
+    }, 500);
   }
 
   function updateComents(elem, commentsList) {
